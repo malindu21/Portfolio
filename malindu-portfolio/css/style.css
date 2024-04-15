@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #0f4c81;
+    color: #111111;
     outline: none;
     text-decoration: none;
 }
@@ -44,20 +44,20 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #0f4c81;
+    background: #111111;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #0f4c81;
+    box-shadow: inset 0 0 0 50px #111111;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #0f4c81;
+    color: #111111;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #0f4c81;
-    border-color: #0f4c81;
+    box-shadow: inset 0 0 0 0 #111111;
+    border-color: #111111;
 }
 
 #loader {
@@ -91,7 +91,7 @@ a:focus {
     width: 45px;
     height: 45px;
     border: 5px solid #dddddd;
-    border-top: 5px solid #0f4c81;
+    border-top: 5px solid #111111;
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -188,7 +188,7 @@ a:focus {
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #0f4c81;
+        color: #808080;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -201,17 +201,17 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-        color: #414141;
+        color: #808080;
     }
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #111111;
+        color: #808080;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #0f4c81;
+        color: #808080;
     }
 }
 
@@ -222,7 +222,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #0f4c81;
+        color: #808080;
     }
     
     .navbar .navbar-nav {
@@ -248,7 +248,8 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(15, 76, 129, .95), rgba(15, 76, 129, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), url(../img/hero-bg.jpg);
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,7 +315,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #0f4c81;
+    color: #111111;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -439,7 +440,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #0f4c81;
+    background: #111111;
     z-index: -1;
 }
 
@@ -450,7 +451,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #0f4c81;
+    background: #111111;
     z-index: 1;
 }
 
@@ -532,7 +533,7 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #0f4c81;
+    background: #111111;
     border-radius: 10px;
     transition: 2s;
 }
@@ -565,7 +566,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background: #0f4c81;
+    background: #111111;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -597,7 +598,7 @@ a:focus {
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #0f4c81;
+    border: 2px solid #111111;
     border-radius: 16px;
     z-index: 1;
 }
@@ -629,7 +630,7 @@ a:focus {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #0f4c81;
+    color: #111111;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -730,7 +731,7 @@ a:focus {
 .service {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 0 0 15px 0;
 }
 
 .service .service-item {
@@ -743,7 +744,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #0f4c81;
+    box-shadow: inset 800px 0 0 0 #111111;
 }
 
 .service .service-icon {
@@ -753,14 +754,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #0f4c81;
+    border: 1px solid #111111;
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #0f4c81;
+    color: #111111;
     transition: .3s;
 }
 
@@ -828,10 +829,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #0f4c81;
+    background: #111111;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #0f4c81;
+    box-shadow: inset 0 0 0 50px #111111;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -839,10 +840,10 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #0f4c81;
+    color: #111111;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #0f4c81;
-    border-color: #0f4c81;
+    box-shadow: inset 0 0 0 0 #111111;
+    border-color: #111111;
 }
 
 .portfolio .portfolio-item {
@@ -866,6 +867,7 @@ a:focus {
     object-fit: cover;
     transform: scale(1.1);
     transition: .5s;
+    top: -20px; /* Adjust the value to lift the image up */
 }
 
 .portfolio .portfolio-item:hover img {
@@ -904,10 +906,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #0f4c81;
+    color: #111111;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #0f4c81;
-    border-color: #0f4c81;
+    box-shadow: inset 0 0 0 0 #111111;
+    border-color: #111111;
 }
 
 
@@ -919,7 +921,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #0f4c81;
+    background: #111111;
 }
 
 .banner .container {
@@ -956,7 +958,7 @@ a:focus {
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: #0f4c81;
+    color: #111111;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1010,7 +1012,7 @@ a:focus {
 }
 
 .price .price-item.featured-item .price-header {
-    color: #0f4c81;
+    color: #111111;
 }
 
 .price .price-title h2 {
@@ -1040,7 +1042,7 @@ a:focus {
 }
 
 .price .price-item.featured-item h2 {
-    color: #0f4c81;
+    color: #111111;
 }
 
 .price .price-body {
@@ -1076,15 +1078,15 @@ a:focus {
 
 .price .price-item.featured-item .price-action .btn {
     color: #ffffff;
-    background: #0f4c81;
-    box-shadow: inset 0 0 0 50px #0f4c81;
+    background: #111111;
+    box-shadow: inset 0 0 0 50px #111111;
 }
 
 .price .price-item.featured-item .price-action .btn:hover {
-    color: #0f4c81;
+    color: #111111;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #0f4c81;
-    border-color: #0f4c81;
+    box-shadow: inset 0 0 0 0 #111111;
+    border-color: #111111;
 }
 
 
@@ -1127,7 +1129,7 @@ a:focus {
 }
 
 .team .team-text h2 {
-    color: #0f4c81;
+    color: #111111;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1166,7 +1168,7 @@ a:focus {
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #0f4c81;
+    box-shadow: inset 800px 0 0 0 #111111;
 }
 
 .team .team-item:hover .team-img img {
@@ -1216,7 +1218,7 @@ a:focus {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: #0f4c81;
+    background: #111111;
 }
 
 .testimonial .container {
@@ -1268,7 +1270,7 @@ a:focus {
 }
 
 .testimonial .testimonial-text h3 {
-    color: #0f4c81;
+    color: #111111;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1306,7 +1308,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #0f4c81;
+    background: #111111;
 }
 
 .contact .container-fluid {
@@ -1317,7 +1319,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #0f4c81;
+    background: #111111;
 }
 
 .contact .contact-form input {
@@ -1351,7 +1353,7 @@ a:focus {
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #0f4c81;
+    color: #111111;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1465,7 +1467,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #0f4c81;
+    background: #111111;
 }
 
 .footer .container-fluid {
